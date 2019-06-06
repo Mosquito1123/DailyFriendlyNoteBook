@@ -6,9 +6,7 @@
 <li>Search Functionality</li>
 <li>Staggered GridView</li>
 </ul>
-<a href ="https://play.google.com/store/apps/details?id=com.bimsina.notes_app"><img src ="https://play.google.com/intl/en/badges/images/generic/en_badge_web_generic.png"></a>
 
-Video Demo: https://www.youtube.com/watch?v=Fg68VND8unE <br><br>
 Screenshots:<br>
 <table style={border:"none"}><tr>
 <td><img src="https://user-images.githubusercontent.com/29589003/57538958-2ae63100-7369-11e9-9efc-102497249cdd.png" alt="Screenshot 2"/></td>
