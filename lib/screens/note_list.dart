@@ -33,7 +33,7 @@ class NoteListState extends State<NoteList> {
         title: Text('Notes', style: Theme.of(context).textTheme.headline),
         centerTitle: true,
         elevation: 0,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.blueGrey,
         leading: noteList.length == 0
             ? Container()
             : IconButton(
@@ -51,9 +51,7 @@ class NoteListState extends State<NoteList> {
               ),
         actions: <Widget>[
           noteList.length == 0
-              ? Container(
-
-          )
+              ? Container()
               : IconButton(
                   icon: Icon(
                     axisCount == 2 ? Icons.list : Icons.grid_on,
@@ -91,7 +89,7 @@ class NoteListState extends State<NoteList> {
           navigateToDetail(Note('', '', 3, 0), 'Add Note');
         },
         tooltip: 'Add Note',
-        shape: CircleBorder(side: BorderSide(color: Colors.black, width: 2.0)),
+//        shape: CircleBorder(side: BorderSide(color: Colors.black, width: 2.0)),
         child: Icon(Icons.add, color: Colors.black),
         backgroundColor: Colors.white,
       ),
